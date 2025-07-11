@@ -21,7 +21,7 @@ public class Demo {
 			System.err.println(e.getMessage());
 		}
 		
-		System.out.println("After completion execution, it is alive or not ?"
+		System.out.println("Main thread After completion execution, it is alive or not ?"
 				+myThread.isAlive());
 
 	}
